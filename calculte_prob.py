@@ -64,7 +64,7 @@ def calculate_expected_state_count(transition_matrix, initial_state, num_steps):
 def print_expected_state_count(expected_state_count):
     out_dict = {}
     for i, biome in enumerate(BIOMES):
-        out_dict[biome] = expected_state_count[i].round(3)
+        out_dict[biome] = expected_state_count[i].round(4)
     # order and print
     out_dict = dict(sorted(out_dict.items(), key=lambda item: item[1], reverse=True))
     for key, value in out_dict.items():

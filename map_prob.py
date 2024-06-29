@@ -115,7 +115,9 @@ MAP_PROBS = {
         "CONSTRUCTION_SITE": 1
     },
     "SNOWY_FOREST": {
-        "LAKE": 1
+        "LAKE": 1,
+        "FOREST": 1,
+        "MOUNTAIN": 1
     },
     "ISLAND": {
         "SEA": 1
